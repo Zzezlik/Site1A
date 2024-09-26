@@ -6,11 +6,14 @@
     text-decoration: none;
 }
 
+.header {
+    background: black;
+}
+
 .btn {
     padding: 10px 20px;
-    background-color: hsl(0, 100%, 91%);
+    background-color: rgb(255, 255, 255);
     color: black;
-    margin: 10px;
     border: none;
     border-radius: 7px;
     cursor: pointer;
@@ -18,27 +21,48 @@
 }
 
 .btn:hover {
-    background-color: hsl(0, 100%, 75%);
+    background-color: rgb(255, 128, 128);
     color: white;
     text-decoration: underline;
+    box-shadow: 0 2px 5px rgba(255, 128, 128, 0.7);
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-right: 600px;
+    align-items: center;
     
 }
 
 li {
-    margin: 10px;
+    align-items: center;
+    list-style: none;
     padding: 10px;
-    background-color: #f9f9f9;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .asite {
     float: left;
+}
+
+.item {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+
+p {
+    margin: 5px 0 0 0;
+
+}
+
+.container {
+    margin: 0 15%
+}
+
+nav {
+    padding: 7px;
 }
