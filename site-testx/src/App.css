@@ -36,3 +36,39 @@
     transform: rotate(360deg);
   }
 }
+
+.hamsterC, .hamsterC img {
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  margin: 0;
+  border-radius: 100%;
+}
+
+.hamsterC {
+  border: 0;
+}
+
+
+@keyframes hamsterS {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes hamsterS2 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(260deg);
+  }
+}
+
+.hamsterC:active {
+  animation: hamsterS .5s .5 cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
