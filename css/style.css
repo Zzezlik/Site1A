@@ -59,8 +59,20 @@ p {
 
 }
 
-.container {
-    margin: 0 15%
+.item {
+    margin: 15px 15%
+}
+.item:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+    max-width: 250px;
+    border-radius: 5px;
+    margin: 0 0 0 70%;
 }
 
 nav {
